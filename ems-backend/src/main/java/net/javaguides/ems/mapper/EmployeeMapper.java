@@ -13,10 +13,10 @@ public class EmployeeMapper {
 
         );
         public static Employee mapToEmployee(EmployeeDto employeeDto){
-                employeeDto.getId(),
-                employeeDto.getFirstName(),
-                employeeDto.getLastName(),
-                employeeDto.getEmail()
+                employeeDto.getId();
+                employeeDto.getFirstName();
+                employeeDto.getLastName();
+                employeeDto.getEmail();
         }
     }
 }
